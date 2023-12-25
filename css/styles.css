@@ -3,12 +3,42 @@
 --secondary-text-color: #757575;
 --primary-white-color: #FFFFFF;
 --secondary-white-color: #F5F4FA;
---thirdly-white-color: 
+--thirdly-white-color: #ECECEC;
 --accent-color: #2196F3;
 --logo-color: #000000;
 
 }
 
 body{
+background-color: var(--primary-white-color);
 
+}
+
+.list{
+    list-style: none;
+}
+
+/* Logo */
+.logo{
+    color: var(--logo-color);
+}
+.logo-word{
+    color: var(--accent-color);
+}
+
+/* Site nav */
+.site-nav .link{
+    color: var(--primary-text-color);
+}
+
+.contacts .link{
+    color: var(--secondary-text-color);
+}
+
+.contacts .link:hover,.contacts .link:focus{
+    color: var(--accent-color);
+}
+
+.site-nav .link.current{
+    color: var(--accent-color);
 }
