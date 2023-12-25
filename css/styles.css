@@ -6,6 +6,7 @@
 --thirdly-white-color: #ECECEC;
 --accent-color: #2196F3;
 --logo-color: #000000;
+--hero-bg-color: #2F303A;
 
 }
 
@@ -41,4 +42,14 @@ background-color: var(--primary-white-color);
 
 .site-nav .link.current{
     color: var(--accent-color);
+}
+
+/* Hero */
+.hero{
+    background-color: var(--hero-bg-color);
+    color: var(--primary-white-color);
+}
+.button{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
 }
