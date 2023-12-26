@@ -6,13 +6,17 @@
 --thirdly-white-color: #ECECEC;
 --accent-color: #2196F3;
 --logo-color: #000000;
---hero-bg-color: #2F303A;
+--bg-color: #2F303A;
 
 }
 
 body{
 background-color: var(--primary-white-color);
 
+}
+
+.section .title{
+color: var(--primary-text-color);
 }
 
 .list{
@@ -46,10 +50,79 @@ background-color: var(--primary-white-color);
 
 /* Hero */
 .hero{
-    background-color: var(--hero-bg-color);
+    background-color: var(--bg-color);
+}
+
+.hero-title{
     color: var(--primary-white-color);
 }
-.button{
+
+.hero > .button{
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+}
+
+/* Features */
+
+.feature-list{
+    list-style: none;
+    color: var(--secondary-text-color);
+}
+
+
+/* What do we do?  */
+.communicate-list{
+    list-style: none;
+}
+
+/* Our team */
+
+.team-list{
+    color: var(--secondary-text-color);
+    list-style: none;
+}
+
+.team-list .title{
+    color: var(--primary-text-color);
+}
+
+/* Footer */
+.footer{
+    background-color: var(--bg-color);
+}
+
+.footer-logo{
+    color: var(--primary-white-color);
+}
+
+.address .street{
+    color: var(--primary-white-color);
+}
+
+/* Categories */
+
+.categories-list{
+    list-style: none;
+}
+
+.categories-list .primary{
+    color: var(--primary-text-color);
+    background-color: var(--secondary-white-color);
+}
+
+.categories-list .primary:active{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.categories-list .current{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.categories{
+    color: var(--secondary-text-color);
+}
+
+.categories .title{
+    color: var(--primary-text-color);
 }
